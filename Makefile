@@ -27,6 +27,10 @@ PPSSPP/PPSSPPSDL_tg5050:
 	curl -f -o PPSSPP/PPSSPPSDL_tg5050 -sSL $(PPSSPP_RELEASE_URL)/PPSSPPSDL_SmartProS
 	chmod +x PPSSPP/PPSSPPSDL_tg5050
 
+PPSSPP/PPSSPPSDL_h700:
+	curl -f -o PPSSPP/PPSSPPSDL_h700 -sSL $(PPSSPP_RELEASE_URL)/PPSSPPSDL_h700
+	chmod +x PPSSPP/PPSSPPSDL_h700
+
 bin/setalpha:
 	curl -f -o bin/setalpha -sSL $(SPRUCEOS_PSP_URL)/setalpha
 	chmod +x bin/setalpha
