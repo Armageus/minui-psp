@@ -11,7 +11,7 @@ bump-version:
 	jq '.version = "$(RELEASE_VERSION)"' pak.json > pak.json.tmp
 	mv pak.json.tmp pak.json
 
-build: bin/minui-power-control bin/setalpha PPSSPP/PPSSPPSDL_tg5040 PPSSPP/PPSSPPSDL_tg5050 PPSSPP/libstdc++.so.6
+build: bin/minui-power-control bin/setalpha PPSSPP/PPSSPPSDL_tg5040 PPSSPP/PPSSPPSDL_tg5050 PPSSPP/PPSSPPSDL_h700 PPSSPP/libstdc++.so.6
 	@echo "Build complete"
 
 bin/minui-power-control:
